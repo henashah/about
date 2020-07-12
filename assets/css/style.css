@@ -530,6 +530,23 @@ section {
 .card-text {
   color: #575757;
 }
+
+.card-read {
+  color: #212121;
+  font-weight: 600;
+}
+
+.btn-primary {
+  border: 0px;
+  border-radius: 25px;
+  background: #E4E4E4;
+}
+
+.btn-primary:hover {
+  border: 0px;
+  border-radius: 25px;
+  background: #FFEB82;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -575,38 +592,6 @@ and (max-device-width: 1024px) {
     visibility: hidden;
   }
 }
-
-
-/* .card-img-overlay>h5, 
-.card-img-overlay>p{
-  color: #212121;
-  transition: all 0.2s ease-in-out 0s;
-  position: relative;
-  top: 20%;
-  bottom: 50%;
-  text-align: center;
-  visibility: visible;
-  background-color:rgb(255, 235, 130, 0.75);
-}
-
-.card-img-overlay:hover, 
-.card-img-overlay:active {
-  background-color:rgb(255, 235, 130, 0.75);
-  border-radius: 50%;
-}
-
-.card-img-overlay:hover h5, 
-.card-img-overlay:hover p,
-.card-img-overlay:active:focus h5, 
-.card-img-overlay:active:focus p{
-  color: #212121;
-  transition: all 0.2s ease-in-out 0s;
-  position: relative;
-  top: 20%;
-  bottom: 50%;
-  text-align: center;
-  visibility: visible;
-} */
 
 .services .icon-box .icon {
   margin: 0 auto;
